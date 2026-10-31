@@ -1,0 +1,40 @@
+{
+  "name": "Servidor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --ignore public --ignore frontend",
+    "dev": "webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^6.0.0",
+    "core-js": "^3.51.0",
+    "css-loader": "^7.1.5",
+    "dotenv": "^18.0.9",
+    "ejs": "^7.0.2",
+    "express": "^5.3.0",
+    "express-session": "^1.19.0",
+    "mongoose": "^9.11.4",
+    "regenerator-runtime": "^0.14.1",
+    "style-loader": "^4.0.0"
+  },
+  "allowScripts": {
+    "connect-flash@0.1.1": true,
+    "core-js@3.51.0": true
+  },
+  "devDependencies": {
+    "@babel/cli": "^8.0.6",
+    "@babel/core": "^8.0.10",
+    "@babel/preset-env": "^8.0.7",
+    "babel-loader": "^10.1.1",
+    "nodemon": "^3.1.14",
+    "webpack": "^5.112.2",
+    "webpack-cli": "^7.3.1"
+  }
+}

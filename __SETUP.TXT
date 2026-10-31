@@ -1,0 +1,52 @@
+CD E:\Cursos\JS_TS_OM\ProjectJS_OM\Servidor
+
+INSTALAR
+-------------------------
+npm i DOTENV
+
+npm i connect-flash
+npm install-scripts approve connect-flash
+npm i connect-mongo
+npm i core-js
+npm install-scripts approve core-js
+npm i css-loader
+npm i dotenv
+npm i ejs
+npm i express
+npm i express-session
+npm i mongoose
+npm i regenerator-runtime
+npm i style-loader
+
+
+npm i -D @babel/cli
+npm i -D @babel/core
+npm i -D @babel/preset-env
+npm i -D babel-loader
+npm i -D nodemon
+npm i -D webpack
+npm i -D webpack-cli
+
+
+"mongodb+srv://allanfgomes2021_db_user:jJy6BSqDCLlZboCQ@cluster0.nu7dfk0.mongodb.net/"
+
+
+github
+------
+projeto: ServidorExpress
+git --version
+git config --list --local
+
+echo "# ServidorExpress" >> README.md
+git init
+git config user.name "AllanFGomes"
+git config user.email "AllanFGomes2021@gmail.com"
+git config core.eol lf
+git config core.autocrlf input
+git branch -M main
+git add .
+git commit -m "first commit"
+
+
+git remote add origin https://github.com/AllanFGomes2021/ServidorExpress.git
+git push -u origin main
