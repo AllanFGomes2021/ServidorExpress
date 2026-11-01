@@ -1,12 +1,16 @@
 CD E:\Cursos\JS_TS_OM\ProjectJS_OM\Servidor
 
+https://github.com/luizomf/curso-js
+
 INSTALAR
 -------------------------
-npm i DOTENV
-
 npm i connect-flash
 npm install-scripts approve connect-flash
 npm i connect-mongo
+npm i connect-mongostore
+npm install-scripts approve connect-mongostore
+npm i connect-mongodb-session
+npm install-scripts approve connect-mongodb-session
 npm i core-js
 npm install-scripts approve core-js
 npm i css-loader
@@ -17,6 +21,15 @@ npm i express-session
 npm i mongoose
 npm i regenerator-runtime
 npm i style-loader
+
+SEGURANÇA
+---------------------------
+npm i helmet
+npm install-scripts approve helmet
+npm i csrf
+npm install-scripts approve csrf
+npm i csurf
+npm install-scripts approve csurf
 
 
 npm i -D @babel/cli
@@ -36,6 +49,7 @@ github
 projeto: ServidorExpress
 git --version
 git config --list --local
+git status
 
 echo "# ServidorExpress" >> README.md
 git init
